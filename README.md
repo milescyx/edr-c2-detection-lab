@@ -23,12 +23,12 @@ This detection Lab project aimed to simulate a command and control (C2) attack o
 
   
 ## Attack Flow
-1. Victim downloads the malicious executable.
-2. Victim executes the payload.
-3. Payload establishes a C2 connection.
-4. Attacker validates access.
-5. LimaCharlie detects suspicious activity.
-6. Investigation is performed using EDR telemetry.
+- Victim downloads the malicious executable.
+- Victim executes the payload.
+- Payload establishes a C2 connection.
+- Attacker validates access.
+- LimaCharlie detects suspicious activity.
+- Investigation is performed using EDR telemetry.
   
 
 ## Steps
