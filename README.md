@@ -41,4 +41,11 @@ This detection Lab project aimed to simulate a command and control (C2) attack o
 
 The above image shows the victim downloading a malicious executable file named ANCIENT_CARDIGAN.exe after accessing a malicious link. Once executed, the file initiates the attack by establishing a foothold on the victim's Windows system, serving as the initial compromise that enables the subsequent command and control (C2) communication.
 
+*2. Validating command and control (C2) access *
+
+
+<img width="1906" height="446" alt="Screenshot 2026-06-26 154605" src="https://github.com/user-attachments/assets/5ac5b15c-40da-4420-aeec-7e61311f938f" />
+
+
+After successful execution of the payload, a C2 session was established between the compromised endpoint and the attacker machine. Active sessions were verified using the sessions command within the C2 framework, confirming remote control over the victim host.
 
