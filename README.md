@@ -3,9 +3,9 @@
 ## Objective
 
 
-The Detection Lab project aimed to To simulate a command and control (C2) attack on a Windows endpoint and analyze how endpoint detection and response telemetry from LimaCharlie identifies malicious process execution, network behavior, and compromise indicators in a controlled lab environment.
+This detection Lab project aimed to simulate a command and control (C2) attack on a Windows endpoint and analyze how endpoint detection and response telemetry from LimaCharlie identifies malicious process execution, network behavior, and compromise indicators in a controlled lab environment.
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
+
 
 - C2 attack simulation and endpoint compromise analysis using LimaCharlie
 - Process tree analysis and malicious execution detection on Windows systems
@@ -14,11 +14,13 @@ The Detection Lab project aimed to To simulate a command and control (C2) attack
 - Hands on understanding of post exploitation behavior in controlled environments
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
-- Security Information and Event Management (SIEM) system for log ingestion and analysis.
-- Network analysis tools (such as Wireshark) for capturing and examining network traffic.
-- Telemetry generation tools to create realistic network traffic and attack scenarios.
+
+- LimaCharlie – Endpoint Detection and Response (EDR) platform used to monitor endpoint telemetry, detect suspicious activity, and investigate the attack.
+- Sliver – Used to generate the payload and establish a command and control (C2) session.
+- Windows – Victim operating system where the malicious payload was executed.
+- Kali Linux – Attacker machine used to host the C2 server and interact with the compromised endpoint.
+  
 
 ## Steps
 drag & drop screenshots here or use imgur and reference them using imgsrc
