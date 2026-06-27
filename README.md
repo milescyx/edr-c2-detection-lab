@@ -33,8 +33,12 @@ This detection Lab project aimed to simulate a command and control (C2) attack o
 
 ## Steps
 
-## Victim downloads an executable file
+*1. Victim downloads an executable file*
+
+
 <img width="967" height="868" alt="Screenshot 2026-06-26 154640" src="https://github.com/user-attachments/assets/ea50f2b2-7785-4c60-a2cf-128495c93001" />
-The image above shows the victim downloading a malicious executable file named ANCIENT_CARDIGAN.exe after accessing a malicious link. Once executed, the file initiates the attack by establishing a foothold on the victim's Windows system, serving as the initial compromise that enables the subsequent command and control (C2) communication.
+
+
+The above image shows the victim downloading a malicious executable file named ANCIENT_CARDIGAN.exe after accessing a malicious link. Once executed, the file initiates the attack by establishing a foothold on the victim's Windows system, serving as the initial compromise that enables the subsequent command and control (C2) communication.
 
 
